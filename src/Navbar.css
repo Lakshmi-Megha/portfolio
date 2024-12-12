@@ -1,0 +1,43 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1a1a2e;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.sticky-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.sticky-header nav ul li button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sticky-header nav ul li button:hover {
+  color: #4caf50;
+}
+
+@media (max-width: 768px) {
+  .sticky-header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

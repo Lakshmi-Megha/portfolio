@@ -1,0 +1,35 @@
+.about-section {
+  padding: 50px 20px;
+  background-color: #16213e;
+  color: #fff;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #d1d1d1;
+  margin-bottom: 20px;
+  text-align: justify;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

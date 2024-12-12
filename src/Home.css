@@ -1,0 +1,93 @@
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(120deg, #1a1a2e, #16213e);
+  color: #fff;
+}
+
+/* Container for the image */
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Container for the image */
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px; /* Space between image and text */
+}
+
+/* Styling for the image */
+.profile-image {
+  width: 27ggg0px; /* Large size */
+  height: 300px; /* Taller size for better aspect ratio */
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  border-radius: 15px; /* Slight rounded corners for a smooth look */
+  border: 5px solid #ddd; /* Light border for better emphasis */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation on hover */
+}
+
+/* Hover effect */
+.profile-image:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhance the shadow effect on hover */
+}
+
+
+
+.home-content {
+  max-width: 800px;
+}
+
+.home-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.home-name span {
+  color: #4caf50;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #4caf50; }
+  50% { color: #ff5722; }
+  100% { color: #4caf50; }
+}
+
+.home-title {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 10px;
+  animation: fadeIn 3s ease-in-out infinite alternate;
+}
+
+.home-photo {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #4caf50;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.home-thought {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: lightblue;
+  font-style: italic;
+}
+
+.home-title{
+  color: burlywood;
+  font-size: 2.3rem;
+}
